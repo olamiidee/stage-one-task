@@ -1,14 +1,16 @@
 import React from "react";
 
 const Social = () => {
-  <div className="flex justify-center items-center space-x-2 pt-2">
-    <div>
-      <img src="" alt="" />
+  return (
+    <div className="hidden md:flex justify-center items-center mx-auto pt-8 pb-9 space-x-6">
+      <div>
+        <img src="/images/slack.svg" alt="" />
+      </div>
+      <div>
+        <img src="/images/Social icon.svg" alt="" />
+      </div>
     </div>
-    <div>
-      <img src="" alt="" />
-    </div>
-  </div>;
+  );
 };
 
 export default Social;

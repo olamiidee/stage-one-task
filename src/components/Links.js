@@ -2,35 +2,38 @@ import React from "react";
 
 const Links = () => {
   return (
-    <div className="container w-[95%] mx-auto italic text-sm font-medium text-center text-[#101828] space-y-3 pt-12 md:w-[80%] md:text-lg">
+    <div className="container w-[95%] mx-auto italic text-sm font-medium text-center text-[#101828] space-y-[24px] pt-8 pb-8 md:pb-0 md:w-[80%] md:pt-14 md:text-lg">
       <div className="bg-[#EAECF0] border border-[#EAECF0] rounded-lg px-8 py-6">
         <a href="https://www.twitter.com/lami-deh">
           <button>Twitter Link</button>
         </a>
       </div>
       <div className="bg-[#EAECF0] border border-[#EAECF0] rounded-lg px-8 py-6">
-        <a href="https://training.zuri.team/">
-          <button id="btn__zuri">Zuri Team</button>
+        <a id="btn__zuri" href="https://training.zuri.team/">
+          <button>Zuri Team</button>
         </a>
       </div>
       <div className="bg-[#EAECF0] border border-[#EAECF0] rounded-lg px-8 py-6">
-        <a href="http://books.zuri.team">
-          <button id="books">Zuri Books</button>
+        <a id="books" href="http://books.zuri.team">
+          <button>Zuri Books</button>
         </a>
       </div>
       <div className="bg-[#EAECF0] border border-[#EAECF0] rounded-lg px-8 py-6">
-        <a href="https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>">
-          <button id="book__python">Python Books</button>
+        <a
+          id="book__python"
+          href="https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>"
+        >
+          <button>Python Books</button>
         </a>
       </div>
       <div className="bg-[#EAECF0] border border-[#EAECF0] rounded-lg px-8 py-6">
-        <a href="https://background.zuri.team">
-          <button id="pitch">Background Check for Coders</button>
+        <a id="pitch" href="https://background.zuri.team">
+          <button>Background Check for Coders</button>
         </a>
       </div>
       <div className="bg-[#EAECF0] border border-[#EAECF0] rounded-lg px-8 py-6">
-        <a href="https://books.zuri.team/design-rules ">
-          <button id="book__design">Design Books</button>
+        <a id="book__design" href="https://books.zuri.team/design-rules ">
+          <button>Design Books</button>
         </a>
       </div>
     </div>

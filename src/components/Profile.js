@@ -3,8 +3,25 @@ import React from "react";
 const Profile = () => {
   return (
     <div>
-      <div>
-        <img src="" alt="" id="profile__img" />
+      <div className="flex justify-center items-start mt-16 relative w-[90%] mx-auto md:w-[50%]">
+        <div>
+          <img src="/images/profile__img.svg" alt="" id="profile__img" />
+        </div>
+
+        <div>
+          <img
+            className="hidden md:block absolute right-0"
+            src="/images/_Avatar share button.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            className="md:hidden absolute right-0 -top-5"
+            src="/images/Avatar share button.svg"
+            alt=""
+          />
+        </div>
       </div>
       <div>
         <p
