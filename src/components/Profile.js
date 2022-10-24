@@ -30,7 +30,10 @@ const Profile = () => {
         >
           Osibeluwo Olamide
         </p>
-        <p id="slack" className="none"></p>
+        {/* slack name */}
+        <p id="slack" className="none">
+          Osibeluwo Olamide
+        </p>
       </div>
     </div>
   );

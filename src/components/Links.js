@@ -21,7 +21,7 @@ const Links = () => {
       <div className="bg-[#EAECF0] border border-[#EAECF0] rounded-lg px-8 py-6">
         <a
           id="book__python"
-          href="https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>"
+          href="https://books.zuri.team/python-for-beginners?ref_id=<Osibeluwo Olamide>"
         >
           <button>Python Books</button>
         </a>
@@ -32,7 +32,7 @@ const Links = () => {
         </a>
       </div>
       <div className="bg-[#EAECF0] border border-[#EAECF0] rounded-lg px-8 py-6">
-        <a id="book__design" href="https://books.zuri.team/design-rules ">
+        <a id="book__design" href="https://books.zuri.team/design-rules">
           <button>Design Books</button>
         </a>
       </div>
